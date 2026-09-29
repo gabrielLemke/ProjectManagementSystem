@@ -4,6 +4,7 @@ import fastifyJwt from '@fastify/jwt';
 import { ZodError } from 'zod';
 import { AppError } from './errors/app-error.js';
 import { authRoutes } from './routes/auth.routes.js';
+import { projectRoutes } from './routes/project.routes.js';
 
 export function buildApp() {
   const app = fastify({
@@ -41,6 +42,7 @@ export function buildApp() {
 
   // Registro das rotas com versionamento de API
   app.register(authRoutes, { prefix: '/api/v1/auth' });
+  app.register(projectRoutes, { prefix: '/api/v1/projects' });
 
   // Tratamento global e padronizado de erros
   app.setErrorHandler((error: FastifyError, request, reply) => {
