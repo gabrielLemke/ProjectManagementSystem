@@ -372,6 +372,8 @@ graph LR
 
 Desenvolvido por **Gabriel Henrique Lemke**.
 
+- **LinkedIn**: [linkedin.com/in/gabriel-henrique-lemke-987580214](https://www.linkedin.com/in/gabriel-henrique-lemke-987580214/)
+- **E-mail**: [gabriel.henrique.lemke@gmail.com](mailto:gabriel.henrique.lemke@gmail.com)
 - **GitHub**: [@gabrielLemke](https://github.com/gabrielLemke)
 - **Repositório**: [ProjectManagementSystem](https://github.com/gabrielLemke/ProjectManagementSystem)
 
